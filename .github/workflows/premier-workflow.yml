@@ -15,4 +15,6 @@ jobs:
         run: uname -a
       - name: Nom du projet
         run: echo "Projet TP DevOps"
+      - name: Afficher mon nom et la date
+        run: echo "Etudiante Houda - Date d'execution $(date)"
         
